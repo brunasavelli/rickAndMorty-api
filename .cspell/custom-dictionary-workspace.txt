@@ -1,9 +1,18 @@
 # Custom Dictionary Words
+busca
+buscar
+Buscar
 clicou
+encontrado
+limpar
+Limpar
 limpou
 Nenhum
+Página
 personagem
+Personagens
 pesquisou
+Próxima
 rickandmorty
 Toastify
 Você

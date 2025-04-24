@@ -71,3 +71,59 @@
     align-items: center;
     gap: 2rem;
 }
+
+.navControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.buttonNav {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    cursor: pointer;
+}
+
+.buttonNav:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 198, 255, 0.3);
+}
+
+.buttonNav:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 198, 255, 0.2);
+}
+
+.buttonNav:disabled {
+    opacity: 0.5s;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.buscar,
+.limpar,
+.buttonNav {
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.navControls {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
